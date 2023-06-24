@@ -87,5 +87,8 @@
 #contact {
     padding-bottom: 4rem;
 }
-
+button:disabled{
+    cursor: not-allowed;
+    background: grey;
+}
 
