@@ -1,11 +1,11 @@
-/* configuração da imagem de fundo */
+
 .bgimage {
     height:100vh;
     background: url('images/bg2023.jpg');
     background-size:cover;
     position:relative;
 }
-/* configuração do texto */
+
 .hero_title {
     font-size: 4.5rem;
 }
@@ -23,14 +23,14 @@
 .imageAboutPage{
     width: 100%;
 }
-/* cada card com 280px de altura e apontador como seta do mouse */
+
 .servicesText.card {
     height: 280px;
     cursor: pointer;
   }
 
 
-/* ícones com tamanho 36px e alinhados ao centro */
+
 .servicesIcon {
     font-size: 36px;
     text-align: center;
@@ -38,19 +38,18 @@
 }
 
 
-/* título dos cards ao centro */
 .card-title {
     text-align: center;
 }
 
 
-/* ao serem selecionados, os ícones cards mudam de cor */
+
 .card:hover .servicesIcon {
     color: purple;
 }
 
 
-/* ao ser selecionado, o card terá borda colorida */
+
 .servicesText:hover {
     border: 2px solid purple;
 }
@@ -59,12 +58,12 @@
     background-color: black;
 }
 .social-icons {
-    font-size: 36px;
+    font-size: 20px;
     cursor: pointer;
 }
 
 
-/* cor quando selecionado */
+
 .fa-facebook:hover,.fa-instagram:hover,.fa-github:hover,.fa-linkedin:hover {
     color: grey;
 }
@@ -74,7 +73,7 @@
 .fab {
     color: white;
 }
-/* cor padrão de fundo */
+
 #footer {
     background-color: purple;
     text-align: center;
