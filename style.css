@@ -78,7 +78,29 @@
     background-color: purple;
     text-align: center;
 }
-/* espaçando as seções */
+.col-lg-4{
+    width: 100%;
+    margin: 10px 0px;
+
+
+}
+.card{
+    style=width: 100%;
+    height: 100%;
+}
+.card-text{
+    height: 50%;
+}
+
+.text-center{
+    width: 100%;
+    padding-bottom: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 #about, #services, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
@@ -86,69 +108,13 @@
 #contact {
     padding-bottom: 4rem;
 }
-
-
-
-.btn:visited {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 15px 40px;
-    display: inline-block;
-    border-radius: 100px;
-    transition: all .2s;
-    position: absolute;
-}
-
-.btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px #6495ED
-}
-
-.btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 10px #6495ED;
-}
-
-.btn-white {
-    background-color:#3339FF;
-    color: #6495ED;
-}
-
-.btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
+.btn{
+    margin: 10px 0px;
     width: 100%;
-    border-radius: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
 }
-
-.btn-white::after {
-    background-color:#3339FF;
+.form-control{
+    margin: 10px 0px;
 }
-
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
-}
-
-.btn-animated {
-    animation: moveInBottom 5s ease-out;
-    animation-fill-mode: backwards;
-}
-
-@keyframes moveInBottom {
-    0% {
-        opacity: 0;
-        transform: translateY(30px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+.form-group{
+    margin: 10px 0px;
 }
