@@ -1,4 +1,4 @@
-alert("Site em construção")
+
 const header = document.querySelector('.navbar');
 
 
