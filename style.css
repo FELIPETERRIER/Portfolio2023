@@ -1,8 +1,4 @@
-*{
-    box-sizing:border-box;
-    margin: 0;
-    padding: 0;
-}
+
 .bg-image {
     background: url('images/bg2023.jpg');
     background-repeat: no-repeat;
@@ -78,7 +74,7 @@
     background-color: black;
 }
 
-.social-icons {
+.social-icons{    
     font-size: 20px;
     cursor: pointer;
 }
@@ -99,8 +95,11 @@
 }
 
 #footer {
-    background-color: blue;
+    width: 100%;
     text-align: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .col-lg-4 {
@@ -159,10 +158,24 @@
 }
 .mt-4{
     background-color:#2E2E32;
-    
+    margin-top: 0;   
 }
 
 .about-content{
     margin: 1px;
 
+}
+.container-fluid{
+    background-color:#2E2E32;
+    padding: 0px;
+    margin-top: 1px;
+    width: 100%;
+}
+
+.social-icons {
+    
+    width: 100%;
+    padding: auto;
+    margin:0px 0px;
+    
 }
